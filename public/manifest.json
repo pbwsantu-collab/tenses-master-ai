@@ -1,0 +1,14 @@
+{
+  "name": "TENSES MASTER AI",
+  "short_name": "Tenses Master",
+  "description": "Bilingual English tense learning PWA for Bengali-medium students.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#1e40af",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
