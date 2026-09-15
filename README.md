@@ -14,7 +14,7 @@ Modular bilingual English Tenses Progressive Web App.
 - Offline-capable PWA
 - Mobile-first dark UI
 
-## Run
+## Run locally
 ```bash
 npm install
 npm run dev
@@ -31,9 +31,18 @@ src/
   styles/      design system
 ```
 
-## Deploy
-Connect to Cloudflare Pages / Netlify / Vercel:
-- Build: `npm run build`
-- Output: `dist`
+## Deploy to GitHub Pages
+
+This project uses GitHub Actions to automatically build and deploy.
+
+1. Go to **Settings → Pages**
+2. Under **Source**, select **GitHub Actions**
+3. Push to `main` (or re-run the workflow)
+
+Live site: https://pbwsantu-collab.github.io/tenses-master-ai/
+
+### Other platforms (Cloudflare Pages / Netlify / Vercel)
+- Build command: `npm run build`
+- Output directory: `dist`
 
 Based on Higher English Grammar Chapter XIII — Tenses.
