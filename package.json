@@ -1,0 +1,16 @@
+{
+  "name": "tenses-master-ai",
+  "version": "1.0.0",
+  "description": "TENSES MASTER AI — Modular bilingual English Tenses PWA",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-content.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^5.4.0"
+  }
+}
